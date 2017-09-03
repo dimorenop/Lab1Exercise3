@@ -3,19 +3,22 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package labexercise3;
+package lab1exercise3;
 
 /**
  *
  * @author Diego
  */
-public class LabExercise3 {
+public class Category {
 
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
+    private String name;
+
+    public Category(String name) {
+        this.name = name;
     }
-    
+
+    public String getName() {
+        return name;
+    }
+
 }
