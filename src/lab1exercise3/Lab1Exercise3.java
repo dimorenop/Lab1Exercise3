@@ -8,8 +8,8 @@ package lab1exercise3;
 import java.util.*;
 
 /**
- *
- * @author Diego
+ * @author Diego Moreno Pedroza
+ * @author cristian chitiva
  */
 public class Lab1Exercise3 {
 
@@ -49,30 +49,4 @@ public class Lab1Exercise3 {
                 String nombreMod = in.next();
                 System.out.println("Ingrese el precio");
                 int precio = in.nextInt();
-                CarModel nuevoMod = new CarModel(categoria, nombreMod, precio);
-                System.out.println("Ingrese el kilometraje");
-                int kilometraje = in.nextInt();
-                Car nuevoCar = new Car(nuevoMod, kilometraje);
-                if (tienda.addcar(nuevoCar)) {
-                    System.out.println("Se agrego satisfactoriamente");
-                } else {
-                    System.out.println("Problemas al registrar el carro");
-                }
-
-            } else if (opcion == 2) {
-                System.out.println("Se ha cerrado el programa");
-                break;
-
-            } else if(opcion == 3) {
-                for (int i = 0; i < 20; i++) {
-                    System.out.println(tienda.listar()[i] + "\n");
-                }
-            } else {
-                System.out.println("Opción inválida.");
-            }
-
-        } while (continuar == 0);
-
-    }
-
-}
+                CarModel nuevoMod = new CarModel(categoria
