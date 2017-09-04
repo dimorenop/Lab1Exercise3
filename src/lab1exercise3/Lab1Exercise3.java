@@ -68,9 +68,7 @@ public class Lab1Exercise3 {
 
         } while (continuar == 0);
 
-        for (Car cars : car) {
-                    System.out.println(.getNombre());
-                }
+        
     }
 
 }

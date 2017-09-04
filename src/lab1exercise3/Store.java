@@ -35,28 +35,8 @@ public class Store {
             return false;
     }
     
-    public CarModel[] listarCarros(int numCars){
-        CarModel[] modelo  = new CarModel[numCars];
-        for (int i = 0; i < numCars; i++) {
-            modelo[i] = this.cars[numCars].getModel();
-        }
-        return modelo;
-        
-        /*Car[] categoria  = new Car[numCars];
-        for (int i = 0; i < numCars; i++) {
-            categoria[i] = this.categoria;
-        }
-        return modelo;
-    }
-        //String[] categoria  = new String[20];
-    /*public String[] mostrarZona(int numZona) {
-        String[] placaVehiculo = new String[5];
-        for (int i = 0; i < 5; i++) {
-            placaVehiculo[i] = this.zonas[numZona].getVehiculos(i).getPlaca();
-        }
-        return placaVehiculo;
-    */
-    }    
+   
+    
     
     
 }
