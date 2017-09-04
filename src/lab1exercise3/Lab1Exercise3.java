@@ -64,7 +64,7 @@ public class Lab1Exercise3 {
                 break;
 
             } else if(opcion == 3) {
-                for (int i = 0; i < 21; i++) {
+                for (int i = 0; i < 20; i++) {
                     System.out.println(tienda.listar()[i] + "\n");
                 }
             } else {

@@ -20,7 +20,6 @@ public class Store {
         for (int i = 0; i < this.cars.length; i++) {
             this.cars[i] = new Car(new CarModel(new Category("vacio"), "vacio", 0), 0);
         }
-this.cars = new Car[20];
         this.numCars = 0;
     }
 
