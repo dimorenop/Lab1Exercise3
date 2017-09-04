@@ -14,13 +14,11 @@ public class CarModel {
     private Category category;
     private String modelNumber;
     private int price;
-    private Car[] model;
 
     public CarModel(Category category, String modelNumber, int price) {
         this.category = category;
         this.modelNumber = modelNumber;
-        this.price = price;
-        this.model = new Car[10];       
+        this.price = price;      
     }
 
     public Category getCategory() {

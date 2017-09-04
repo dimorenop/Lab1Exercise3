@@ -33,13 +33,14 @@ public class Lab1Exercise3 {
 
         int opcion = 0, continuar = 0;
         do {
-            
+
             System.out.println("¿Desea agregar un carro?");
             System.out.println("1.Si");
-            System.out.println("2.No\n");
-            
+            System.out.println("2.No");
+            System.out.println("3.Listar carros\n");
+
             opcion = in.nextInt();
-            
+
             if (opcion == 1) {
                 System.out.println("Ingrese categoría");
                 String nombreCat = in.next();
@@ -57,18 +58,21 @@ public class Lab1Exercise3 {
                 } else {
                     System.out.println("Problemas al registrar el carro");
                 }
-                
+
             } else if (opcion == 2) {
                 System.out.println("Se ha cerrado el programa");
                 break;
-            
+
+            } else if(opcion == 3) {
+                for (int i = 0; i < 21; i++) {
+                    System.out.println(tienda.listar()[i] + "\n");
+                }
             } else {
                 System.out.println("Opción inválida.");
             }
 
         } while (continuar == 0);
 
-        
     }
 
 }
