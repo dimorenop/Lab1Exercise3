@@ -20,7 +20,7 @@ public class CarModel {
         this.category = category;
         this.modelNumber = modelNumber;
         this.price = price;
-        this.model = new Car[10]; //Aquí hay un array list      
+        this.model = new Car[10];       
     }
 
     public Category getCategory() {
